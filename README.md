@@ -1,2 +1,2 @@
-# interner_shop_node_express_react_psql
-This project about internet shop on express without front-end...or..who knows
+  # TO DO on Node-express and psql in database role
+This project about internet check-list on express without front-end...or..who knows
