@@ -2,4 +2,4 @@
 This project about internet check-list on express without front-end...or..who knows
 
 
-IN SERVER "cd server" -//- npm run dev - START SERVER 
+IN SERVER "cd server" -//- "npm run dev" - START SERVER 
