@@ -42,11 +42,11 @@ In Terminal "**cd server**" -//- "**npm run dev**" - **START SERVER**
     + / - добавление залачи - Post запрос, noteId - body параметр
     + / - Получение всех задач события - Get запрос, noteId - query параметр
       Использованные схемы:
-   
-    **Memo && Note:**
-        ```ts
-        name: {type: DataTypes.STRING, unique: true, allowNull: false}
-        ```
+
+  **Memo && Note:**
+  ```ts
+  name: {type: DataTypes.STRING, unique: true, allowNull: false}
+  ```
 
 **Зависимости**
  ```ts
