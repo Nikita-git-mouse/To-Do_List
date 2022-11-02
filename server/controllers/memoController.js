@@ -6,7 +6,7 @@ class MemoController{
         try{
         let {deathNoteId,name} = req.body
         if (!deathNoteId || !name){
-            next(ApiError.badRequest("Укажи параметры, сука"))
+            next(ApiError.badRequest("Укажите параметры"))
         }
         const memo = await Memo.create({deathNoteId, name})
         return res.json(memo)

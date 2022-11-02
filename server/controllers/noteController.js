@@ -6,7 +6,7 @@ class NoteController{
         try{
         let {userId,name} = req.body
         if (!userId || !name){
-            next(ApiError.badRequest("Укажи параметры, сука"))
+            next(ApiError.badRequest("Укажите параметры"))
         }
         const note = await DeathNote.create({userId, name})
         return res.json(note)
